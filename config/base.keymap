@@ -1,4 +1,4 @@
-﻿#include <behaviors.dtsi>
+#include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #if CONFIG_WIRELESS
     #include <dt-bindings/zmk/bt.h>
