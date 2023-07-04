@@ -229,11 +229,6 @@ ZMK_BEHAVIOR(win_sleep, macro,
     bindings = <&kp LG(X) &kp U &kp S>;
 )
 
-ZMK_BEHAVIOR(macro_vs_build, macro,
-    wait-ms = <0>;
-    tap-ms = <5>;
-    bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LSHFT>, <&macro_tap &kp B>, <&macro_release &kp LSHFT>, <&macro_release &kp LCTRL>;
-)
 
 // misc aliases
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
@@ -247,7 +242,7 @@ ZMK_CONDITIONAL_LAYER(FN NUM, SYS)  // FN + NUM --> SYS
 
 ZMK_LAYER(base,
                 &kp EQUAL &kp N1    &kp N2    &kp N3    &kp N4    &kp N5    &tog NUM           &mo MOD       &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS
-                &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &macro_vs_build    &tog MOUSE    &kp Y     &kp U     &kp I     &kp O     &kp P     &kp BSLH
+                &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T     &kp T    &tog MOUSE    &kp Y     &kp U     &kp I     &kp O     &kp P     &kp BSLH
                 &kp ESC   &kp A     &kp S     &kp D     &hml 2 F  &kp G     &kp F5             &none         &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp SQT
                 &kp LSHFT &kp Z     &kp X     &kp C     &kp V     &kp B                                      &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT
                 &mo FN    &kp GRAVE &kp CAPS  &kp LEFT  &kp RIGHT                                                      &kp UP    &kp DOWN  &kp LBKT  &kp RBKT  &mo FN
