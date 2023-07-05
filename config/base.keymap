@@ -250,6 +250,7 @@ keymap {
      &kp N6  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC  &kp LCTRL   &kp LGUI                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &tog 5
             >;
         };
+};
 
         
 /* vim: set ft=c tw=174: */
