@@ -33,7 +33,7 @@ There is a GUI for editing the keymap. It is available at https://kinesiscorpora
 
 ### Build firmware
 
-1. Execute `make`.
+1. Execute `make`.d
 2. Check the `firmware` directory for the latest firmware build.
 
 ### Cleanup
